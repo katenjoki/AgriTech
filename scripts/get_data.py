@@ -2,11 +2,11 @@ import pdal
 import json
 
 DATA_PATH = "https://s3-us-west-2.amazonaws.com/usgs-lidar-public/" #lidar path
-REGION = 'USGS LPC CO SoPlatteRiver Lot5 2013 LAS 2015/'
-BOUNDS = "([-11669524.7, -11666600.8], [4776607.3, 4778714.4])"
+REGION = "IA_FullState/"
+BOUNDS = "([-10425171.940, -10423171.940], [5164494.710, 5166494.710])"
 ACCESS_PATH = DATA_PATH + REGION + "ept.json"
-OUTPUT_FILENAME_LAZ = "laz/SoPlatterRiver.laz"
-OUTPUT_FILENAME_TIF = "tif/SoPlatterRiver.tif"
+OUTPUT_FILENAME_LAZ = "laz/iowa.laz"
+OUTPUT_FILENAME_TIF = "tif/iowa.tif"
 PIPELINE_PATH = "get_data.json"
 
 def get_raster_terrain(bounds:str, region:str, access_path:str = ACCESS_PATH, output_filename_laz:str = OUTPUT_FILENAME_LAZ,
