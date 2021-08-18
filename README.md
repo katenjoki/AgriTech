@@ -11,6 +11,7 @@ So that if they try a new fertilizer on part of this farm, they have more confid
 * One important ingredient to understanding water flow in a field is by measuring the elevation of the field at many points.
 
 <h2> Overiew of data source and formats </h2>
+
 * The USGS recently released high resolution elevation data as a lidar point cloud called **USGS 3DEP** in a [public dataset on Amazon.](https://registry.opendata.aws/usgs-lidar/) This dataset is essential to build models of water flow and predict plant health and maize harvest. 
 * The 3DEP point cloud data was compressed using the LASzip compression encoding in the us-west-2 region. The data was then organised as Entwine Point Tile (EPT) resources
 
