@@ -15,5 +15,6 @@ So that if they try a new fertilizer on part of this farm, they have more confid
 * The 3DEP point cloud data was compressed using the LASzip compression encoding in the us-west-2 region. The data was then organised as Entwine Point Tile (EPT) resources
 
 <h2> Python packages to build on </h2>
+
 * PDAL
   Point Data Abstraction Library (PDAL) is open source software for translating, extracting, filtering, and exploiting geospatial point cloud data.
