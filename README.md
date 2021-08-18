@@ -16,5 +16,6 @@ So that if they try a new fertilizer on part of this farm, they have more confid
 
 <h2> Python packages to build on </h2>
 
-* PDAL
-  Point Data Abstraction Library (PDAL) is open source software for translating, extracting, filtering, and exploiting geospatial point cloud data.
+<hh3> PDAL </h3>
+* Point Data Abstraction Library (PDAL) is open source software for translating, extracting, filtering, and exploiting geospatial point cloud data.
+* PDAL will be used to build a pipeline over specific bounds and region which will be used to load and fetch 
