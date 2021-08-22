@@ -17,6 +17,7 @@ So that if they try a new fertilizer on part of this farm, they have more confid
 * The 3DEP point cloud data was compressed using the LASzip compression encoding in the us-west-2 region. The data was then organised as Entwine Point Tile (EPT) resources
 
 <h2>Challenge</h2>
+
 Write a modular python code/package [geosom](https://github.com/katenjoki/AgriTech_USGS/tree/master/geosome) to:
 * connect to the AWS API
 * query the data model to select with  a specified input and get a desired output
