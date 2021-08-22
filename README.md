@@ -27,12 +27,12 @@ Check out my **geosom code documentation** on github wiki [here](https://github.
 
 <h2> Python packages to build on </h2>
 
-<h3>[PDAL]((https://pdal.io/))</h3>
+[PDAL](https://pdal.io/)
 
 * Point Data Abstraction Library (PDAL) is open source software for translating, extracting, filtering, and exploiting geospatial point cloud data.
 * PDAL will be used to build a pipeline over specific bounds and region which will be used to load and fetch 
 
-<h3>[Rasterio](https://rasterio.readthedocs.io/en/latest/)</h3>
+[Rasterio](https://rasterio.readthedocs.io/en/latest/)
 
 * Rasterio gives access to geospatial raster data. It reads and writes GoeTiff and other formats, and provides a Python API based on Numpy N-dimensional arrays and GeoJSON.
 
@@ -40,6 +40,6 @@ Check out my **geosom code documentation** on github wiki [here](https://github.
 
 * Shapely enables easy extraction of geometries from geospatial data. 
 
-<h3>[GeoPandas](https://geopandas.org/)</h3>
+[GeoPandas](https://geopandas.org/)
 
 * GeoPandas makes working with geospatial data in python easier as it extends the datatypes used by pandas to allow spatial operations on geometric types. 
