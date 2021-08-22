@@ -36,7 +36,7 @@ Check out my **geosom code documentation** on github wiki [here](https://github.
 
 * Rasterio gives access to geospatial raster data. It reads and writes GoeTiff and other formats, and provides a Python API based on Numpy N-dimensional arrays and GeoJSON.
 
-<h3> [Shapely](https://shapely.readthedocs.io/en/stable/manual.html)</h3>
+[Shapely](https://shapely.readthedocs.io/en/stable/manual.html)
 
 * Shapely enables easy extraction of geometries from geospatial data. 
 
