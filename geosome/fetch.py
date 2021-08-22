@@ -1,6 +1,6 @@
 import json
 import pdal
-import gdal
+#import gdal
 import numpy as np
 import rasterio
 from glob import glob
@@ -36,17 +36,5 @@ def geo_fetch(bounds:str,region:str,data_path:str=DATA_PATH,pipeline_path:str=PI
         print(e)
         print("RunTime Error, writing 0s and moving to next bounds")
         
-    #source of code for elevations https://www.earthdatascience.org/tutorials/visualize-digital-elevation-model-contours-matplotlib/ 
-    #get elevations
-    filename = output_tif
-    gdal_data = gdal.Open(filename)
-    gdal_band = gdal_data.GetRasterBand(1)
-    nodataval = gdal_band.GetNoDataValue()
-
-    # convert elevations to numpy array
-    data_array = gdal_data.ReadAsArray().astype(np.float)
-    data_array
-
-    # replace missing values if necessary
-    if np.any(data_array == nodataval):
-        data_array[data_array == nodataval] = np.nan
+    finally:
+        return output_tif,output_shp
