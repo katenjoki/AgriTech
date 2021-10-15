@@ -1,6 +1,0 @@
-setup.py
-geosome.egg-info/PKG-INFO
-geosome.egg-info/SOURCES.txt
-geosome.egg-info/dependency_links.txt
-geosome.egg-info/requires.txt
-geosome.egg-info/top_level.txt
