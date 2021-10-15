@@ -1,6 +1,6 @@
 import json
 import pdal
-from osgeo import gdal
+from osgeo import gdal, ogr
 import numpy as np
 import rasterio
 from glob import glob
@@ -65,4 +65,5 @@ def geo_plot(gdf:gpd.GeoDataFrame)->None:
     ax.set_xlabel("Longitude")
     ax.set_xlabel("Latitude")
     ax.set_zlabel("Elevation")
+    plt.savefig("../files/terrain.png")
     plt.show()
