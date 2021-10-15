@@ -59,3 +59,5 @@ The USGS recently released high resolution elevation data as a lidar point cloud
   ```
   The geo_plot function returns the elevation files as a 3D plot 
   
+  ![terrain_visualization](https://github.com/katenjoki/AgriTech_USGS/blob/master/files/terrain.png)
+  
