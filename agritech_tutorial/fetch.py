@@ -13,8 +13,8 @@ DATA_PATH = "https://s3-us-west-2.amazonaws.com/usgs-lidar-public/"
 PIPELINE_PATH = "get_data.json"
 
 def geo_fetch(bounds:gpd.GeoDataFrame,region:str,data_path:str=DATA_PATH,pipeline_path:str=PIPELINE_PATH):
-    #boundaries = bounds.to_crs(epsg=3857)
-    Xmin,ymin,Xmax,ymax = bounds.total_bounds
+    boundaries = bounds.to_crs(epsg=3857)
+    Xmin,ymin,Xmax,ymax = boundaries.total_bounds
     access_path = data_path + region + "ept.json"
     r = region.strip('/')
     output_laz = "../files/laz/" + r + ".laz"
